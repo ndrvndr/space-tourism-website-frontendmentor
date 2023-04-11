@@ -10,7 +10,8 @@ module.exports = {
       },
       fontFamily: {
         bellefair: "'Bellefair', serif",
-        barlow: "'Barlow Condensed', serif",
+        barlowcond: "'Barlow Condensed', serif",
+        barlow: "'Barlow', serif",
       },
     },
   },
