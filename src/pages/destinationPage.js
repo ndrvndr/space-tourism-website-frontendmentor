@@ -6,7 +6,7 @@ export default function DestinationPage() {
   return (
     <>
       <Navbar />
-      <main className="bg-bg-mobile-destination w-full h-[850px] bg-no-repeat bg-cover -z-10 px-6 flex flex-col items-center">
+      <main className="bg-bg-mobile-destination w-full bg-no-repeat bg-cover -z-10 px-6 flex flex-col items-center">
         <div className="w-[221px] h-[19px] mt-[88px] mb-8">
           <span className="font-barlowcond font-bold tracking-[2.7px] text-[#4D5157] mr-[18px]">
             01
@@ -48,7 +48,7 @@ export default function DestinationPage() {
             384,400 KM
           </span>
         </div>
-        <div className="flex flex-col h-[61px] justify-between">
+        <div className="flex flex-col h-[61px] justify-between mb-[58px]">
           <span className="font-barlowcond text-[#D0D6F9] tracking-[2.36px] text-[14px] text-center">
             EST. TRAVEL TIME
           </span>
