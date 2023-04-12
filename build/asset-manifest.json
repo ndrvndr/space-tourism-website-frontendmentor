@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.33c0438f.css",
+    "main.js": "/static/js/main.f43e3a54.js",
+    "static/media/image-moon.png": "/static/media/image-moon.d287d07182de3015952f.png",
+    "static/media/image-anousheh-ansari.png": "/static/media/image-anousheh-ansari.bb494b4091520baa16cb.png",
+    "static/media/image-europa.png": "/static/media/image-europa.3e95f7d0a16fe2ebf4c6.png",
+    "static/media/image-victor-glover.png": "/static/media/image-victor-glover.115d4f686f4426af57f8.png",
+    "static/media/image-mars.png": "/static/media/image-mars.1b224c8663251270d79f.png",
+    "static/media/image-mark-shuttleworth.png": "/static/media/image-mark-shuttleworth.7946c1ca18eb4f74128d.png",
+    "static/media/image-spaceport-landscape.jpg": "/static/media/image-spaceport-landscape.0f3ca5c05a3e87191ea7.jpg",
+    "static/media/image-douglas-hurley.png": "/static/media/image-douglas-hurley.5790d0a73bf7e4ebe108.png",
+    "static/media/image-titan.png": "/static/media/image-titan.d4b078f9ce17e686ae99.png",
+    "static/media/image-space-capsule-landscape.jpg": "/static/media/image-space-capsule-landscape.d672da81d5ff3ada7301.jpg",
+    "static/media/background-home-mobile.jpg": "/static/media/background-home-mobile.13f7adecbcb3c3f170d8.jpg",
+    "static/media/image-launch-vehicle-landscape.jpg": "/static/media/image-launch-vehicle-landscape.4281a59ff7186488fe6a.jpg",
+    "static/media/background-destination-mobile.jpg": "/static/media/background-destination-mobile.e0131e27e751ead1a922.jpg",
+    "index.html": "/index.html",
+    "static/media/logo.svg": "/static/media/logo.565f7f2c0534403f11b71994f4311210.svg",
+    "static/media/icon-close.svg": "/static/media/icon-close.d47fda63cbd8b3fedbbc1b2a53f64470.svg",
+    "static/media/icon-hamburger.svg": "/static/media/icon-hamburger.5273efa7c50e96ef3e51e7a2b54048ce.svg",
+    "main.33c0438f.css.map": "/static/css/main.33c0438f.css.map",
+    "main.f43e3a54.js.map": "/static/js/main.f43e3a54.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.33c0438f.css",
+    "static/js/main.f43e3a54.js"
+  ]
+}
