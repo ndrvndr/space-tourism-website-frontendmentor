@@ -64,7 +64,7 @@ export default function CrewPage() {
     <>
       <Navbar />
       <main className="bg-bg-mobile-crew w-full h-screen bg-no-repeat bg-cover -z-10 px-6 flex flex-col items-center">
-        <div className="w-[221px] h-[19px] mt-[88px] flex justify-center">
+        <div className="h-[19px] mt-[88px] flex justify-center">
           <span className="font-barlowcond font-bold tracking-[2.7px] text-[#4D5157] mr-[18px]">
             02
           </span>

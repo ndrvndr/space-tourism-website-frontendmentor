@@ -50,7 +50,7 @@ export default function TechPage() {
     <>
       <Navbar />
       <main className="bg-bg-mobile-tech w-full h-screen bg-no-repeat bg-cover -z-10 flex flex-col items-center">
-        <div className="w-[221px] h-[19px] mt-[88px] flex justify-center">
+        <div className="h-[19px] mt-[88px] flex justify-center">
           <span className="font-barlowcond font-bold tracking-[2.7px] text-[#4D5157] mr-[18px]">
             03
           </span>

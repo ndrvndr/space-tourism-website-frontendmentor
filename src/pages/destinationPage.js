@@ -68,8 +68,8 @@ export default function DestinationPage() {
   return (
     <>
       <Navbar />
-      <main className="bg-bg-mobile-destination w-full bg-no-repeat bg-cover -z-10 px-6 flex flex-col items-center">
-        <div className="w-[221px] h-[19px] mt-[88px] mb-8 flex justify-center">
+      <main className="bg-bg-mobile-destination w-full h-screen bg-no-repeat bg-cover -z-10 px-6 flex flex-col items-center">
+        <div className="h-[19px] mt-[88px] mb-8 flex justify-center">
           <span className="font-barlowcond font-bold tracking-[2.7px] text-[#4D5157] mr-[18px]">
             01
           </span>
@@ -82,7 +82,7 @@ export default function DestinationPage() {
           alt={destinationInfo.title}
           className="w-[170px] h-[170px] mb-[26px]"
         ></img>
-        <ul className="font-barlowcond text-[#D0D6F9] text-[14px] tracking-[2.36px] flex space-x-7 w-[237.5px] h-[28px] mb-5">
+        <ul className="font-barlowcond text-[#D0D6F9] text-[14px] tracking-[2.36px] flex space-x-7 h-[28px] mb-5">
           <li
             onClick={() => handleDestinationChange("MOON")}
             className={`${
@@ -125,10 +125,10 @@ export default function DestinationPage() {
           </li>
         </ul>
         <div className="flex flex-col items-center">
-          <h1 className="font-bellefair text-white text-[56px] mb-[1px] w-[187px] h-[64px]">
+          <h1 className="font-bellefair text-white text-[56px] mb-[1px] h-[64px] text-center">
             {destinationInfo.title}
           </h1>
-          <p className="font-barlow text-[#D0D6F9] text-[15px] text-center leading-[25px] w-[327px] h-[125px]">
+          <p className="font-barlow text-[#D0D6F9] text-[15px] text-center leading-[25px] h-[125px]">
             {destinationInfo.description}
           </p>
         </div>
