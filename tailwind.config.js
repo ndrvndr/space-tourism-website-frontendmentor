@@ -7,6 +7,7 @@ module.exports = {
         "bg-mobile-home": "url('/src/assets/home/background-home-mobile.jpg')",
         "bg-mobile-destination":
           "url('/src/assets/destination/background-destination-mobile.jpg')",
+        "bg-mobile-crew": "url('/src/assets/crew/background-crew-mobile.jpg')",
       },
       fontFamily: {
         bellefair: "'Bellefair', serif",

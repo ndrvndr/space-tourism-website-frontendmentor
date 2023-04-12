@@ -35,7 +35,7 @@ export default function Menu({ isContentActive, toggleContent }) {
             DESTINATION
           </span>
         </div>
-        <div className="flex cursor-pointer">
+        <div className="flex cursor-pointer" onClick={() => navigate("/crew")}>
           <span className="font-barlowcond font-bold tracking-[2.7px] text-white mr-[11px]">
             02
           </span>

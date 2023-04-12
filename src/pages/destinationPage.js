@@ -69,7 +69,7 @@ export default function DestinationPage() {
     <>
       <Navbar />
       <main className="bg-bg-mobile-destination w-full bg-no-repeat bg-cover -z-10 px-6 flex flex-col items-center">
-        <div className="w-[221px] h-[19px] mt-[88px] mb-8">
+        <div className="w-[221px] h-[19px] mt-[88px] mb-8 flex justify-center">
           <span className="font-barlowcond font-bold tracking-[2.7px] text-[#4D5157] mr-[18px]">
             01
           </span>
@@ -132,7 +132,7 @@ export default function DestinationPage() {
             {destinationInfo.description}
           </p>
         </div>
-        <hr className="w-[327px] border-1 border-[#979797] my-8" />
+        <hr className="w-[327px] border-1 border-[#383B4B] my-8" />
         <div className="flex flex-col h-[61px] justify-between mb-8">
           <span className="font-barlowcond text-[#D0D6F9] tracking-[2.36px] text-[14px] text-center">
             AVG. DISTANCE
