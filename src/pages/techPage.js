@@ -49,25 +49,29 @@ export default function TechPage() {
   return (
     <>
       <Navbar />
-      <main className="bg-bg-mobile-tech w-full h-screen bg-no-repeat bg-cover -z-10 flex flex-col items-center">
-        <div className="h-[19px] mt-[88px] flex justify-center">
-          <span className="font-barlowcond font-bold tracking-[2.7px] text-[#4D5157] mr-[18px]">
+      <main className="bg-bg-mobile-tech w-full h-screen bg-no-repeat bg-cover -z-10 flex flex-col items-center md:bg-tablet-tech min-h-screen md:h-full">
+        <div className="mt-[88px] flex items-center justify-center md:mt-[136px] md:self-start md:mb-[60px] md:ml-[39px]">
+          <span className="font-barlowcond font-bold tracking-[2.7px] text-[#4D5157] mr-[18px] md:text-xl md:tracking-[3.38px] md:font-bold md:mr-[19px]">
             03
           </span>
-          <span className="font-barlowcond tracking-[2.7px] text-white">
+          <span className="font-barlowcond tracking-[2.7px] text-white md:text-xl md:tracking-[3.38px]">
             SPACE LAUNCH 101
           </span>
         </div>
 
-        <img src={techInfo.image} alt={techInfo.title} className="my-8"></img>
+        <img
+          src={techInfo.image}
+          alt={techInfo.title}
+          className="my-8 md:my-0 md:mb-[56px]"
+        ></img>
 
-        <div className="flex space-x-4 mb-[26px]">
+        <div className="flex space-x-4 mb-[26px] md:mb-[44px]">
           <div
             onClick={() => handleTechChange("VEHICLE")}
             className={`${
               tech === "VEHICLE"
-                ? "w-10 h-10 rounded-full bg-white flex items-center justify-center font-bellefair tracking-[1px]"
-                : "w-10 h-10 rounded-full bg-transparent flex items-center justify-center font-bellefair tracking-[1px] text-white border border-[#979797]"
+                ? "w-10 h-10 rounded-full bg-white flex items-center justify-center font-bellefair tracking-[1px] md:w-[60px] md:h-[60px] md:tracking-[1.5px] md:text-2xl"
+                : "w-10 h-10 rounded-full bg-transparent flex items-center justify-center font-bellefair tracking-[1px] text-white border border-[#979797] md:w-[60px] md:h-[60px] md:tracking-[1.5px] md:text-2xl"
             } cursor-pointer`}
           >
             1
@@ -76,8 +80,8 @@ export default function TechPage() {
             onClick={() => handleTechChange("SPACEPORT")}
             className={`${
               tech === "SPACEPORT"
-                ? "w-10 h-10 rounded-full bg-white flex items-center justify-center font-bellefair tracking-[1px]"
-                : "w-10 h-10 rounded-full bg-transparent flex items-center justify-center font-bellefair tracking-[1px] text-white border border-[#979797]"
+                ? "w-10 h-10 rounded-full bg-white flex items-center justify-center font-bellefair tracking-[1px] md:w-[60px] md:h-[60px] md:tracking-[1.5px] md:text-2xl"
+                : "w-10 h-10 rounded-full bg-transparent flex items-center justify-center font-bellefair tracking-[1px] text-white border border-[#979797] md:w-[60px] md:h-[60px] md:tracking-[1.5px] md:text-2xl"
             } cursor-pointer`}
           >
             2
@@ -86,22 +90,22 @@ export default function TechPage() {
             onClick={() => handleTechChange("CAPSULE")}
             className={`${
               tech === "CAPSULE"
-                ? "w-10 h-10 rounded-full bg-white flex items-center justify-center font-bellefair tracking-[1px]"
-                : "w-10 h-10 rounded-full bg-transparent flex items-center justify-center font-bellefair tracking-[1px] text-white border border-[#979797]"
+                ? "w-10 h-10 rounded-full bg-white flex items-center justify-center font-bellefair tracking-[1px] md:w-[60px] md:h-[60px] md:tracking-[1.5px] md:text-2xl"
+                : "w-10 h-10 rounded-full bg-transparent flex items-center justify-center font-bellefair tracking-[1px] text-white border border-[#979797] md:w-[60px] md:h-[60px] md:tracking-[1.5px] md:text-2xl"
             } cursor-pointer`}
           >
             3
           </div>
         </div>
 
-        <div className="flex flex-col items-center px-6">
-          <span className="font-barlowcond text-[14px] text-[#D0D6F9] tracking-[2.36px] mb-[9px]">
+        <div className="flex flex-col items-center px-6 md:mb-[80px] md:px-0">
+          <span className="font-barlowcond text-[14px] text-[#D0D6F9] tracking-[2.36px] mb-[9px] md:text-base md:tracking-[2.7px] md:mb-[26px]">
             THE TERMINOLOGY...
           </span>
-          <h1 className="font-bellefair text-2xl text-white text-center mb-4">
+          <h1 className="font-bellefair text-2xl text-white text-center mb-4 md:text-[40px] md:mb-7">
             {techInfo.title}
           </h1>
-          <p className="font-barlow text-[15px] leading-[25px] text-[#D0D6F9] text-center">
+          <p className="font-barlow text-[15px] leading-[25px] text-[#D0D6F9] text-center md:text-base md:leading-7 md:w-[458px]">
             {techInfo.description}
           </p>
         </div>
