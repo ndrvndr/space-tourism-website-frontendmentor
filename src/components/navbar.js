@@ -16,12 +16,38 @@ export default function Navbar() {
   };
   return (
     <>
-      <nav className="fixed w-screen max-w-3xl flex items-center justify-between my-6 px-6">
+      <nav className="fixed w-screen max-w-3xl flex items-center justify-between my-6 px-6 md:px-0 md:pl-[39px] md:my-0 md:mb-6 md:max-w-5xl">
         <button onClick={() => navigate("/")}>
           <img src={logo} alt="Logo"></img>
         </button>
 
-        <button onClick={() => toggleContent()}>
+        <div className="hidden w-[450px] h-[96px] bg-white bg-opacity-5 md:flex md:items-center md:justify-center">
+          <ul className="w-fit font-barlowcond text-[14px] text-white flex">
+            <li onClick={() => navigate("/")} className="cursor-pointer">
+              HOME
+            </li>
+            <li
+              onClick={() => navigate("/destination")}
+              className="ml-[37px] mr-[42px] cursor-pointer"
+            >
+              DESTINATION
+            </li>
+            <li
+              onClick={() => navigate("/crew")}
+              className="mr-[37px] cursor-pointer"
+            >
+              CREW
+            </li>
+            <li
+              onClick={() => navigate("/technology")}
+              className="cursor-pointer"
+            >
+              TECHNOLOGY
+            </li>
+          </ul>
+        </div>
+
+        <button onClick={() => toggleContent()} className="md:hidden">
           <img src={menu} alt="Icon Hamburger Menu"></img>
         </button>
       </nav>

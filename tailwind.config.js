@@ -10,6 +10,11 @@ module.exports = {
         "bg-mobile-crew": "url('/src/assets/crew/background-crew-mobile.jpg')",
         "bg-mobile-tech":
           "url('/src/assets/technology/background-technology-mobile.jpg')",
+        "tablet-home": "url('/src/assets/home/background-home-tablet.jpg')",
+        "tablet-destination":
+          "url('/src/assets/destination/background-destination-tablet.jpg')",
+        "tablet-tech":
+          "url('/src/assets/technology/background-technology-tablet.jpg')",
       },
       fontFamily: {
         bellefair: "'Bellefair', serif",
