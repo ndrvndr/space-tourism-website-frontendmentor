@@ -16,34 +16,56 @@ export default function Navbar() {
   };
   return (
     <>
-      <nav className="fixed w-screen max-w-3xl flex items-center justify-between my-6 px-6 md:px-0 md:pl-[39px] md:my-0 md:mb-6 md:max-w-5xl">
+      <nav className="fixed w-screen flex items-center justify-between my-6 px-6 md:px-0 md:pl-[39px] md:my-0 md:mb-6 lg:pl-[55px] lg:mt-10">
         <button onClick={() => navigate("/")}>
           <img src={logo} alt="Logo"></img>
         </button>
 
-        <div className="hidden w-[450px] h-[96px] bg-white bg-opacity-5 md:flex md:items-center md:justify-center">
+        <div className="hidden w-[450px] h-[96px] bg-white bg-opacity-5 md:flex md:items-center md:justify-center lg:w-[830px] lg:backdrop-blur-2xl">
+          <hr className="hidden lg:block w-[473px] border-1 border-[#383B4B] absolute -left-[443px]" />
           <ul className="w-fit font-barlowcond text-[14px] text-white flex">
-            <li onClick={() => navigate("/")} className="cursor-pointer">
-              HOME
-            </li>
-            <li
+            <div className="flex cursor-pointer" onClick={() => navigate("/")}>
+              <span className="hidden lg:block font-barlowcond font-bold tracking-[2.7px] text-white mr-[11px]">
+                00
+              </span>
+              <li className="md:tracking-[2.36px] lg:tracking-[2.7px]">HOME</li>
+            </div>
+
+            <div
+              className="flex ml-[37px] mr-[42px] lg:ml-12 lg:mr-12 cursor-pointer"
               onClick={() => navigate("/destination")}
-              className="ml-[37px] mr-[42px] cursor-pointer"
             >
-              DESTINATION
-            </li>
-            <li
+              <span className="hidden lg:block  font-barlowcond font-bold tracking-[2.7px] text-white mr-[11px]">
+                01
+              </span>
+              <li className="md:tracking-[2.36px] lg:tracking-[2.7px]">
+                DESTINATION
+              </li>
+            </div>
+
+            <div
+              className="flex cursor-pointer lg:mr-12"
               onClick={() => navigate("/crew")}
-              className="mr-[37px] cursor-pointer"
             >
-              CREW
-            </li>
-            <li
+              <span className="hidden lg:block lg:cursor-pointer font-barlowcond font-bold tracking-[2.7px] text-white mr-[11px]">
+                02
+              </span>
+              <li className="mr-[37px] md:tracking-[2.36px] lg:tracking-[2.7px] lg:mr-0">
+                CREW
+              </li>
+            </div>
+
+            <div
+              className="flex cursor-pointer"
               onClick={() => navigate("/technology")}
-              className="cursor-pointer"
             >
-              TECHNOLOGY
-            </li>
+              <span className="hidden lg:block  font-barlowcond font-bold tracking-[2.7px] text-white mr-[11px]">
+                03
+              </span>
+              <li className="md:tracking-[2.36px] lg:tracking-[2.7px]">
+                TECHNOLOGY
+              </li>
+            </div>
           </ul>
         </div>
 
