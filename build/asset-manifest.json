@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.ff9c8273.css",
-    "main.js": "/static/js/main.8e9b5a60.js",
+    "main.css": "/static/css/main.486de7e5.css",
+    "main.js": "/static/js/main.8ab0d4fc.js",
     "static/media/image-victor-tablet.svg": "/static/media/image-victor-tablet.25db9a23868561f865c844e02f2fe4e5.svg",
     "static/media/image-ansari-tablet.svg": "/static/media/image-ansari-tablet.64176737e33ea30751041dfbcfe7436f.svg",
     "static/media/image-mark-tablet.svg": "/static/media/image-mark-tablet.a1c9af4545832e68e47a13f5e9f62389.svg",
     "static/media/image-douglas-tablet.svg": "/static/media/image-douglas-tablet.26ff32cfe8f496f2177a3480e289db78.svg",
+    "static/media/background-home-desktop.jpg": "/static/media/background-home-desktop.cdf3864ecbfdf20e8c3b.jpg",
     "static/media/image-moon.png": "/static/media/image-moon.d287d07182de3015952f.png",
     "static/media/image-anousheh-ansari.png": "/static/media/image-anousheh-ansari.bb494b4091520baa16cb.png",
     "static/media/image-europa.png": "/static/media/image-europa.3e95f7d0a16fe2ebf4c6.png",
@@ -27,11 +28,11 @@
     "static/media/logo.svg": "/static/media/logo.565f7f2c0534403f11b71994f4311210.svg",
     "static/media/icon-close.svg": "/static/media/icon-close.d47fda63cbd8b3fedbbc1b2a53f64470.svg",
     "static/media/icon-hamburger.svg": "/static/media/icon-hamburger.5273efa7c50e96ef3e51e7a2b54048ce.svg",
-    "main.ff9c8273.css.map": "/static/css/main.ff9c8273.css.map",
-    "main.8e9b5a60.js.map": "/static/js/main.8e9b5a60.js.map"
+    "main.486de7e5.css.map": "/static/css/main.486de7e5.css.map",
+    "main.8ab0d4fc.js.map": "/static/js/main.8ab0d4fc.js.map"
   },
   "entrypoints": [
-    "static/css/main.ff9c8273.css",
-    "static/js/main.8e9b5a60.js"
+    "static/css/main.486de7e5.css",
+    "static/js/main.8ab0d4fc.js"
   ]
 }
