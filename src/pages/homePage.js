@@ -9,7 +9,7 @@ export default function HomePage() {
       <main className="bg-bg-mobile-home bg-cover h-full bg-no-repeat -z-10 px-6 flex flex-col items-center md:bg-tablet-home min-h-screen md:h-full lg:bg-desktop-home lg:flex-row lg:px-[165px] lg:justify-between">
         <div className="flex flex-col items-center lg:flex-row lg:justify-between lg:absolute lg:bottom-[131px]">
           <div className="flex flex-col items-center justify-center mt-[112px] md:mt-[202px] lg:items-start lg:mt-0 lg:mr-[386px]">
-            <span className="font-barlowcond text-[#D0D6F9] tracking-[2.7px] h-[19px] text-center md:h-[24px] md:text-xl md:tracking-[3.38px] lg:text-lg lg:tracking-[4.72px]">
+            <span className="font-barlowcond text-[#D0D6F9] tracking-[2.7px] h-[19px] text-center md:h-[24px] md:text-xl md:tracking-[3.38px] lg:text-[28px] lg:tracking-[4.72px]">
               SO, YOU WANT TO TRAVEL TO
             </span>
             <h1 className="font-bellefair text-white text-[80px] h-[100px] mt-4 mb-4 text-center leading-[100px] md:mt-12 md:mb-0 md:text-[150px] lg:text-left lg:my-[66px]">

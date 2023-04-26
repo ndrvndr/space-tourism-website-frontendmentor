@@ -24,18 +24,18 @@ export default function Navbar() {
 
         <div className="hidden w-[450px] h-[96px] bg-white bg-opacity-5 md:flex md:items-center md:justify-center lg:w-[830px] lg:backdrop-blur-2xl">
           <hr className="hidden lg:block w-[473px] border-1 border-[#383B4B] absolute -left-[443px]" />
-          <ul className="w-fit font-barlowcond text-[14px] text-white flex h-full items-center">
+          <div className="w-fit font-barlowcond text-[14px] text-white flex h-full items-center">
             <div
               className="flex flex-col cursor-pointer h-full justify-center relative"
               onClick={() => navigate("/")}
             >
               <div className="flex">
-                <span className="hidden lg:block font-barlowcond font-bold tracking-[2.7px] text-white mr-[11px]">
+                <span className="hidden lg:block font-barlowcond font-bold tracking-[2.7px] text-white mr-[11px] text-base">
                   00
                 </span>
-                <li className="md:tracking-[2.36px] lg:tracking-[2.7px]">
+                <span className="md:tracking-[2.36px] lg:text-base lg:tracking-[2.7px]">
                   HOME
-                </li>
+                </span>
               </div>
               <hr
                 className={`${
@@ -51,12 +51,12 @@ export default function Navbar() {
               onClick={() => navigate("/destination")}
             >
               <div className="flex">
-                <span className="hidden lg:block font-barlowcond font-bold tracking-[2.7px] text-white mr-[11px]">
+                <span className="hidden lg:block font-barlowcond font-bold tracking-[2.7px] text-white mr-[11px] text-base">
                   01
                 </span>
-                <li className="md:tracking-[2.36px] lg:tracking-[2.7px]">
+                <span className="md:tracking-[2.36px] lg:text-base lg:tracking-[2.7px]">
                   DESTINATION
-                </li>
+                </span>
               </div>
               <hr
                 className={`${
@@ -72,12 +72,12 @@ export default function Navbar() {
               onClick={() => navigate("/crew")}
             >
               <div className="flex">
-                <span className="hidden lg:block font-barlowcond font-bold tracking-[2.7px] text-white mr-[11px]">
+                <span className="hidden lg:block font-barlowcond font-bold tracking-[2.7px] text-white mr-[11px] text-base">
                   02
                 </span>
-                <li className="md:tracking-[2.36px] lg:tracking-[2.7px]">
+                <span className="md:tracking-[2.36px] lg:text-base lg:tracking-[2.7px]">
                   CREW
-                </li>
+                </span>
               </div>
               <hr
                 className={`${
@@ -93,12 +93,12 @@ export default function Navbar() {
               onClick={() => navigate("/technology")}
             >
               <div className="flex">
-                <span className="hidden lg:block font-barlowcond font-bold tracking-[2.7px] text-white mr-[11px]">
+                <span className="hidden lg:block font-barlowcond font-bold tracking-[2.7px] text-white mr-[11px] text-base">
                   03
                 </span>
-                <li className="md:tracking-[2.36px] lg:tracking-[2.7px]">
+                <span className="md:tracking-[2.36px] lg:text-base lg:tracking-[2.7px]">
                   TECHNOLOGY
-                </li>
+                </span>
               </div>
               <hr
                 className={`${
@@ -108,7 +108,7 @@ export default function Navbar() {
                 } cursor-pointer`}
               />
             </div>
-          </ul>
+          </div>
         </div>
 
         <button onClick={() => toggleContent()} className="md:hidden">

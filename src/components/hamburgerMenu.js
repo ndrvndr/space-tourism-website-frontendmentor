@@ -8,7 +8,7 @@ export default function Menu({ isContentActive, toggleContent }) {
     : "fixed w-[254px] h-screen bg-white bg-opacity-5 backdrop-blur-2xl -right-[254px] transition-all ease duration-[0.5s]";
 
   return (
-    <main className={appContentClass}>
+    <div className={appContentClass}>
       <button
         className="absolute right-[26.45px] top-[33.95px]"
         onClick={() => toggleContent()}
@@ -55,6 +55,6 @@ export default function Menu({ isContentActive, toggleContent }) {
           </span>
         </div>
       </div>
-    </main>
+    </div>
   );
 }
