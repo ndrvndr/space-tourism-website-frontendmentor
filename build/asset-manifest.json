@@ -1,25 +1,35 @@
 {
   "files": {
-    "main.css": "/static/css/main.486de7e5.css",
-    "main.js": "/static/js/main.8ab0d4fc.js",
+    "main.css": "/static/css/main.0317e872.css",
+    "main.js": "/static/js/main.c007acda.js",
+    "static/media/image-victor-desktop.svg": "/static/media/image-victor-desktop.0fad0df4b75ba9ed08a819080ed309f2.svg",
     "static/media/image-victor-tablet.svg": "/static/media/image-victor-tablet.25db9a23868561f865c844e02f2fe4e5.svg",
     "static/media/image-ansari-tablet.svg": "/static/media/image-ansari-tablet.64176737e33ea30751041dfbcfe7436f.svg",
+    "static/media/image-ansari-desktop.svg": "/static/media/image-ansari-desktop.402e3620399d3733f76e10e7a9800a68.svg",
+    "static/media/image-mark-desktop.svg": "/static/media/image-mark-desktop.a55994cbdc67616e9dd542895f1231d4.svg",
     "static/media/image-mark-tablet.svg": "/static/media/image-mark-tablet.a1c9af4545832e68e47a13f5e9f62389.svg",
     "static/media/image-douglas-tablet.svg": "/static/media/image-douglas-tablet.26ff32cfe8f496f2177a3480e289db78.svg",
+    "static/media/image-douglas-desktop.svg": "/static/media/image-douglas-desktop.7dc35cf3b2b2906affca6627898d1a8a.svg",
     "static/media/background-home-desktop.jpg": "/static/media/background-home-desktop.cdf3864ecbfdf20e8c3b.jpg",
     "static/media/image-moon.png": "/static/media/image-moon.d287d07182de3015952f.png",
+    "static/media/background-destination-desktop.jpg": "/static/media/background-destination-desktop.468b922c69bf5499b4bc.jpg",
     "static/media/image-anousheh-ansari.png": "/static/media/image-anousheh-ansari.bb494b4091520baa16cb.png",
     "static/media/image-europa.png": "/static/media/image-europa.3e95f7d0a16fe2ebf4c6.png",
     "static/media/image-victor-glover.png": "/static/media/image-victor-glover.115d4f686f4426af57f8.png",
     "static/media/background-home-tablet.jpg": "/static/media/background-home-tablet.bc9efcc3281fa6801077.jpg",
     "static/media/image-mars.png": "/static/media/image-mars.1b224c8663251270d79f.png",
     "static/media/image-mark-shuttleworth.png": "/static/media/image-mark-shuttleworth.7946c1ca18eb4f74128d.png",
+    "static/media/image-spaceport-portrait.jpg": "/static/media/image-spaceport-portrait.85523db5de13057f36ea.jpg",
     "static/media/image-spaceport-landscape.jpg": "/static/media/image-spaceport-landscape.0f3ca5c05a3e87191ea7.jpg",
     "static/media/image-douglas-hurley.png": "/static/media/image-douglas-hurley.5790d0a73bf7e4ebe108.png",
+    "static/media/background-crew-desktop.jpg": "/static/media/background-crew-desktop.88a3c692fd34eb311e04.jpg",
     "static/media/background-destination-tablet.jpg": "/static/media/background-destination-tablet.8f55d346d8b6cfd95ab7.jpg",
     "static/media/image-titan.png": "/static/media/image-titan.d4b078f9ce17e686ae99.png",
+    "static/media/background-technology-desktop.jpg": "/static/media/background-technology-desktop.b7b589b3c0c5ef0811d4.jpg",
     "static/media/background-crew-tablet.jpg": "/static/media/background-crew-tablet.16d51cf61e98ce45eb61.jpg",
+    "static/media/image-space-capsule-portrait.jpg": "/static/media/image-space-capsule-portrait.dd0ac138afef98c1666a.jpg",
     "static/media/image-space-capsule-landscape.jpg": "/static/media/image-space-capsule-landscape.d672da81d5ff3ada7301.jpg",
+    "static/media/image-launch-vehicle-portrait.jpg": "/static/media/image-launch-vehicle-portrait.0c758955a178bdcc3230.jpg",
     "static/media/background-home-mobile.jpg": "/static/media/background-home-mobile.13f7adecbcb3c3f170d8.jpg",
     "static/media/background-technology-tablet.jpg": "/static/media/background-technology-tablet.48c38b028217ee0096c4.jpg",
     "static/media/image-launch-vehicle-landscape.jpg": "/static/media/image-launch-vehicle-landscape.4281a59ff7186488fe6a.jpg",
@@ -28,11 +38,11 @@
     "static/media/logo.svg": "/static/media/logo.565f7f2c0534403f11b71994f4311210.svg",
     "static/media/icon-close.svg": "/static/media/icon-close.d47fda63cbd8b3fedbbc1b2a53f64470.svg",
     "static/media/icon-hamburger.svg": "/static/media/icon-hamburger.5273efa7c50e96ef3e51e7a2b54048ce.svg",
-    "main.486de7e5.css.map": "/static/css/main.486de7e5.css.map",
-    "main.8ab0d4fc.js.map": "/static/js/main.8ab0d4fc.js.map"
+    "main.0317e872.css.map": "/static/css/main.0317e872.css.map",
+    "main.c007acda.js.map": "/static/js/main.c007acda.js.map"
   },
   "entrypoints": [
-    "static/css/main.486de7e5.css",
-    "static/js/main.8ab0d4fc.js"
+    "static/css/main.0317e872.css",
+    "static/js/main.c007acda.js"
   ]
 }
