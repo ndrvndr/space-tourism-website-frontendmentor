@@ -58,7 +58,7 @@ export default function TechPage() {
     <>
       <Navbar />
       <main className="bg-bg-mobile-tech w-full h-screen bg-no-repeat bg-cover -z-10 flex flex-col items-center md:bg-tablet-tech min-h-screen md:h-full lg:bg-desktop-tech">
-        <div className="mt-[88px] mb-8 flex justify-center md:mt-[136px] md:self-start md:mb-[60px] lg:mt-[212px] lg:ml-[166.5px] lg:mb-[137px]">
+        <div className="mt-[88px] mb-8 flex justify-center md:mt-[136px] md:ml-6 md:self-start md:mb-[60px] lg:mt-[212px] lg:ml-[166.5px] lg:mb-[137px]">
           <span className="font-barlowcond font-bold tracking-[2.7px] text-[#4D5157] mr-[18px] md:text-xl md:tracking-[3.38px] md:font-bold md:mr-[19px] lg:text-[28px] lg:tracking-[4.72px]">
             03
           </span>

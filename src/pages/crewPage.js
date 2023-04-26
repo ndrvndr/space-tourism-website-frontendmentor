@@ -145,7 +145,7 @@ export default function CrewPage() {
               </p>
             </div>
 
-            <div className="hidden md:flex md:space-x-4 md:my-[40px] lg:self-start lg:ml-[142.5px] lg:my-0 lg:mt-[120px]">
+            <div className="hidden md:flex md:justify-center md:space-x-4 md:my-[40px] lg:self-start lg:ml-[142.5px] lg:my-0 lg:mt-[120px]">
               <div
                 onClick={() => handleCrewChange("DOUGLAS")}
                 className={`${
