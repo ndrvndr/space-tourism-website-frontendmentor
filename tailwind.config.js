@@ -17,6 +17,9 @@ module.exports = {
         "tablet-tech":
           "url('/src/assets/technology/background-technology-tablet.jpg')",
         "desktop-home": "url('/src/assets/home/background-home-desktop.jpg')",
+        "desktop-destination":
+          "url('/src/assets/destination/background-destination-desktop.jpg')",
+        "desktop-crew": "url('/src/assets/crew/background-crew-desktop.jpg')",
       },
       fontFamily: {
         bellefair: "'Bellefair', serif",

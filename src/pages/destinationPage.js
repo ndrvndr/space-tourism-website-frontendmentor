@@ -68,7 +68,7 @@ export default function DestinationPage() {
   return (
     <>
       <Navbar />
-      <main className="bg-bg-mobile-destination h-full bg-cover -z-10 px-6 flex flex-col items-center md:bg-tablet-destination md:px-[39px] min-h-screen md:h-full">
+      <main className="bg-bg-mobile-destination h-full bg-cover -z-10 px-6 flex flex-col items-center md:bg-tablet-destination md:px-[39px] min-h-screen md:h-full lg:bg-desktop-destination">
         <div className="mt-[88px] mb-8 flex justify-center md:mt-[136px] md:self-start md:mb-[60px] lg:mt-[212px] lg:ml-[127.5px] lg:mb-[64px]">
           <span className="font-barlowcond font-bold tracking-[2.7px] text-[#4D5157] mr-[18px] md:text-xl md:tracking-[3.38px] md:font-bold md:mr-[19px] lg:text-[28px] lg:tracking-[4.72px]">
             01

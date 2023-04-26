@@ -11,6 +11,11 @@ import markTablet from "../assets/crew/image-mark-tablet.svg";
 import victorTablet from "../assets/crew/image-victor-tablet.svg";
 import ansariTablet from "../assets/crew/image-ansari-tablet.svg";
 
+import douglasDesktop from "../assets/crew/image-douglas-desktop.svg";
+import markDesktop from "../assets/crew/image-mark-desktop.svg";
+import victorDesktop from "../assets/crew/image-victor-desktop.svg";
+import ansariDesktop from "../assets/crew/image-ansari-desktop.svg";
+
 export default function CrewPage() {
   const [crew, setCrew] = React.useState("DOUGLAS");
 
@@ -24,6 +29,7 @@ export default function CrewPage() {
       crewInfo = {
         image: douglas,
         imageTablet: douglasTablet,
+        imageDesktop: douglasDesktop,
         title: "DOUGLAS HURLEY",
         position: "COMMANDER",
         description:
@@ -34,6 +40,7 @@ export default function CrewPage() {
       crewInfo = {
         image: mark,
         imageTablet: markTablet,
+        imageDesktop: markDesktop,
         title: "MARK SHUTTLEWORTH",
         position: "MISSION SPECIALIST",
         description:
@@ -44,6 +51,7 @@ export default function CrewPage() {
       crewInfo = {
         image: victor,
         imageTablet: victorTablet,
+        imageDesktop: victorDesktop,
         title: "VICTOR GLOVER",
         position: "PILOT",
         description:
@@ -54,6 +62,7 @@ export default function CrewPage() {
       crewInfo = {
         image: ansari,
         imageTablet: ansariTablet,
+        imageDesktop: ansariDesktop,
         title: "ANOUSHEH ANSARI",
         position: "FLIGHT ENGINEER",
         description:
@@ -63,6 +72,8 @@ export default function CrewPage() {
     default:
       crewInfo = {
         image: douglas,
+        imageTablet: douglasTablet,
+        imageDesktop: douglasDesktop,
         title: "DOUGLAS HURLEY",
         position: "COMMANDER",
         description:
@@ -72,12 +83,12 @@ export default function CrewPage() {
   return (
     <>
       <Navbar />
-      <main className="bg-bg-mobile-crew w-full h-screen bg-no-repeat bg-cover -z-10 px-6 flex flex-col items-center md:bg-tablet-crew min-h-screen md:h-full">
-        <div className="h-[19px] mt-[88px] flex justify-center md:h-0 md:mt-[136px] md:self-start md:mb-[60px] md:ml-[39px]">
-          <span className="font-barlowcond font-bold tracking-[2.7px] text-[#4D5157] mr-[18px] md:text-xl md:tracking-[3.38px] md:font-bold md:mr-[19px]">
+      <main className="bg-bg-mobile-crew w-full h-screen bg-no-repeat bg-cover -z-10 px-6 flex flex-col items-center md:bg-tablet-crew min-h-screen md:h-full lg:bg-desktop-crew">
+        <div className="mt-[88px] mb-8 flex justify-center md:mt-[136px] md:self-start md:mb-[60px] lg:mt-[212px] lg:ml-[142.5px] lg:mb-[154px]">
+          <span className="font-barlowcond font-bold tracking-[2.7px] text-[#4D5157] mr-[18px] md:text-xl md:tracking-[3.38px] md:font-bold md:mr-[19px] lg:text-[28px] lg:tracking-[4.72px]">
             02
           </span>
-          <span className="font-barlowcond tracking-[2.7px] text-white md:text-xl md:tracking-[3.38px]">
+          <span className="font-barlowcond tracking-[2.7px] text-white md:text-xl md:tracking-[3.38px] lg:text-[28px] lg:tracking-[4.72px]">
             MEET YOUR CREW
           </span>
         </div>
@@ -120,59 +131,68 @@ export default function CrewPage() {
             } cursor-pointer`}
           ></div>
         </div>
+        <div className="flex flex-col items-center lg:self-start lg:flex-row">
+          <div>
+            <div className="flex flex-col items-center lg:items-start lg:self-start lg:ml-[142.5px]">
+              <span className="font-bellefair text-[#919397] md:text-2xl lg:text-[32px]">
+                {crewInfo.position}
+              </span>
+              <h1 className="font-bellefair text-2xl text-white text-center mt-2 mb-4 md:text-[40px] md:mt-[22px] md:mb-7 lg:text-[56px] lg:mb-[42px] lg:mt-[40px]">
+                {crewInfo.title}
+              </h1>
+              <p className="font-barlow text-[15px] text-[#D0D6F9] text-center leading-[25px] md:text-base md:leading-7 md:w-[592px] lg:text-[18px] lg:leading-[32px] lg:text-left lg:w-[444px]">
+                {crewInfo.description}
+              </p>
+            </div>
 
-        <div className="flex flex-col items-center">
-          <span className="font-bellefair text-[#919397] md:text-2xl">
-            {crewInfo.position}
-          </span>
-          <h1 className="font-bellefair text-2xl text-white text-center mt-2 mb-4 md:text-[40px] md:mt-[22px] md:mb-7">
-            {crewInfo.title}
-          </h1>
-          <p className="font-barlow text-[15px] text-[#D0D6F9] text-center leading-[25px] md:text-base md:leading-7 md:w-[592px]">
-            {crewInfo.description}
-          </p>
+            <div className="hidden md:flex md:space-x-4 md:my-[40px] lg:self-start lg:ml-[142.5px] lg:my-0 lg:mt-[120px]">
+              <div
+                onClick={() => handleCrewChange("DOUGLAS")}
+                className={`${
+                  crew === "DOUGLAS"
+                    ? "bg-white w-[10px] h-[10px] rounded-full"
+                    : "bg-[#383B4B] w-[10px] h-[10px] rounded-full"
+                } cursor-pointer`}
+              ></div>
+              <div
+                onClick={() => handleCrewChange("MARK")}
+                className={`${
+                  crew === "MARK"
+                    ? "bg-white w-[10px] h-[10px] rounded-full"
+                    : "bg-[#383B4B] w-[10px] h-[10px] rounded-full"
+                } cursor-pointer`}
+              ></div>
+              <div
+                onClick={() => handleCrewChange("VICTOR")}
+                className={`${
+                  crew === "VICTOR"
+                    ? "bg-white w-[10px] h-[10px] rounded-full"
+                    : "bg-[#383B4B] w-[10px] h-[10px] rounded-full"
+                } cursor-pointer`}
+              ></div>
+              <div
+                onClick={() => handleCrewChange("ANSARI")}
+                className={`${
+                  crew === "ANSARI"
+                    ? "bg-white w-[10px] h-[10px] rounded-full"
+                    : "bg-[#383B4B] w-[10px] h-[10px] rounded-full"
+                } cursor-pointer`}
+              ></div>
+            </div>
+          </div>
+
+          <img
+            src={crewInfo.imageTablet}
+            alt={crewInfo.title}
+            className="hidden md:block lg:hidden"
+          ></img>
+
+          <img
+            src={crewInfo.imageDesktop}
+            alt={crewInfo.title}
+            className="hidden lg:block lg:absolute lg:bottom-0 lg:right-[137px]"
+          ></img>
         </div>
-
-        <div className="hidden md:flex md:space-x-4 md:my-[40px]">
-          <div
-            onClick={() => handleCrewChange("DOUGLAS")}
-            className={`${
-              crew === "DOUGLAS"
-                ? "bg-white w-[10px] h-[10px] rounded-full"
-                : "bg-[#383B4B] w-[10px] h-[10px] rounded-full"
-            } cursor-pointer`}
-          ></div>
-          <div
-            onClick={() => handleCrewChange("MARK")}
-            className={`${
-              crew === "MARK"
-                ? "bg-white w-[10px] h-[10px] rounded-full"
-                : "bg-[#383B4B] w-[10px] h-[10px] rounded-full"
-            } cursor-pointer`}
-          ></div>
-          <div
-            onClick={() => handleCrewChange("VICTOR")}
-            className={`${
-              crew === "VICTOR"
-                ? "bg-white w-[10px] h-[10px] rounded-full"
-                : "bg-[#383B4B] w-[10px] h-[10px] rounded-full"
-            } cursor-pointer`}
-          ></div>
-          <div
-            onClick={() => handleCrewChange("ANSARI")}
-            className={`${
-              crew === "ANSARI"
-                ? "bg-white w-[10px] h-[10px] rounded-full"
-                : "bg-[#383B4B] w-[10px] h-[10px] rounded-full"
-            } cursor-pointer`}
-          ></div>
-        </div>
-
-        <img
-          src={crewInfo.imageTablet}
-          alt={crewInfo.title}
-          className="hidden md:block"
-        ></img>
       </main>
     </>
   );
