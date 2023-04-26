@@ -1,6 +1,6 @@
 # Frontend Mentor - Space tourism website
 
-The live site can be accessed [here](https://space-tourism-website-frontendmentor-ten.vercel.app/)
+The live site can be accessed [here](https://space-tourism-website-frontendmentor-alpha.vercel.app/)
 
 Tablet and desktop views are not currently available, so it is recommended to open via a mobile device
 
