@@ -20,6 +20,8 @@ module.exports = {
         "desktop-destination":
           "url('/src/assets/destination/background-destination-desktop.jpg')",
         "desktop-crew": "url('/src/assets/crew/background-crew-desktop.jpg')",
+        "desktop-tech":
+          "url('/src/assets/technology/background-technology-desktop.jpg')",
       },
       fontFamily: {
         bellefair: "'Bellefair', serif",
